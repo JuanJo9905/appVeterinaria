@@ -73,7 +73,7 @@
             // 
             this.tbEspecie.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.tbEspecie.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbEspecie.Location = new System.Drawing.Point(309, 273);
+            this.tbEspecie.Location = new System.Drawing.Point(311, 273);
             this.tbEspecie.Name = "tbEspecie";
             this.tbEspecie.Size = new System.Drawing.Size(133, 29);
             this.tbEspecie.TabIndex = 1;
@@ -84,7 +84,7 @@
             // 
             this.tbRaza.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.tbRaza.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbRaza.Location = new System.Drawing.Point(467, 273);
+            this.tbRaza.Location = new System.Drawing.Point(471, 273);
             this.tbRaza.Name = "tbRaza";
             this.tbRaza.Size = new System.Drawing.Size(130, 29);
             this.tbRaza.TabIndex = 2;
@@ -105,7 +105,7 @@
             // 
             this.tbPeso.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.tbPeso.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbPeso.Location = new System.Drawing.Point(309, 319);
+            this.tbPeso.Location = new System.Drawing.Point(311, 319);
             this.tbPeso.Name = "tbPeso";
             this.tbPeso.Size = new System.Drawing.Size(133, 29);
             this.tbPeso.TabIndex = 4;
@@ -115,9 +115,11 @@
             // btRegistrarMascota
             // 
             this.btRegistrarMascota.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btRegistrarMascota.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btRegistrarMascota.BackgroundImage")));
+            this.btRegistrarMascota.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btRegistrarMascota.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btRegistrarMascota.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btRegistrarMascota.Location = new System.Drawing.Point(467, 367);
+            this.btRegistrarMascota.Location = new System.Drawing.Point(471, 367);
             this.btRegistrarMascota.Name = "btRegistrarMascota";
             this.btRegistrarMascota.Size = new System.Drawing.Size(130, 29);
             this.btRegistrarMascota.TabIndex = 5;
@@ -132,7 +134,7 @@
             this.btEditId.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btEditId.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btEditId.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btEditId.Location = new System.Drawing.Point(566, 319);
+            this.btEditId.Location = new System.Drawing.Point(570, 319);
             this.btEditId.Name = "btEditId";
             this.btEditId.Size = new System.Drawing.Size(31, 29);
             this.btEditId.TabIndex = 8;
@@ -144,7 +146,7 @@
             this.tbIdprop.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.tbIdprop.Enabled = false;
             this.tbIdprop.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbIdprop.Location = new System.Drawing.Point(467, 319);
+            this.tbIdprop.Location = new System.Drawing.Point(471, 319);
             this.tbIdprop.Name = "tbIdprop";
             this.tbIdprop.ReadOnly = true;
             this.tbIdprop.Size = new System.Drawing.Size(114, 29);
@@ -155,19 +157,22 @@
             // cbEsterilizado
             // 
             this.cbEsterilizado.AutoSize = true;
-            this.cbEsterilizado.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cbEsterilizado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(227)))), ((int)(((byte)(241)))));
+            this.cbEsterilizado.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.cbEsterilizado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbEsterilizado.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbEsterilizado.Location = new System.Drawing.Point(140, 370);
             this.cbEsterilizado.Name = "cbEsterilizado";
-            this.cbEsterilizado.Size = new System.Drawing.Size(85, 18);
+            this.cbEsterilizado.Size = new System.Drawing.Size(105, 26);
             this.cbEsterilizado.TabIndex = 7;
             this.cbEsterilizado.Text = "Esterilizado";
-            this.cbEsterilizado.UseVisualStyleBackColor = true;
+            this.cbEsterilizado.UseVisualStyleBackColor = false;
             // 
             // tbDocumentoProp
             // 
             this.tbDocumentoProp.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.tbDocumentoProp.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbDocumentoProp.Location = new System.Drawing.Point(309, 145);
+            this.tbDocumentoProp.Location = new System.Drawing.Point(311, 145);
             this.tbDocumentoProp.Name = "tbDocumentoProp";
             this.tbDocumentoProp.Size = new System.Drawing.Size(133, 29);
             this.tbDocumentoProp.TabIndex = 8;
@@ -187,13 +192,17 @@
             // btRegistrarProp
             // 
             this.btRegistrarProp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btRegistrarProp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(227)))), ((int)(((byte)(241)))));
+            this.btRegistrarProp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btRegistrarProp.BackgroundImage")));
+            this.btRegistrarProp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btRegistrarProp.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btRegistrarProp.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btRegistrarProp.Location = new System.Drawing.Point(467, 142);
+            this.btRegistrarProp.Location = new System.Drawing.Point(471, 142);
             this.btRegistrarProp.Name = "btRegistrarProp";
             this.btRegistrarProp.Size = new System.Drawing.Size(133, 29);
             this.btRegistrarProp.TabIndex = 5;
             this.btRegistrarProp.Text = "Registrar";
-            this.btRegistrarProp.UseVisualStyleBackColor = true;
+            this.btRegistrarProp.UseVisualStyleBackColor = false;
             this.btRegistrarProp.Click += new System.EventHandler(this.btRegistrarProp_Click);
             // 
             // tbNombreProp
@@ -210,7 +219,7 @@
             // 
             this.tbApellidoProp.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.tbApellidoProp.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbApellidoProp.Location = new System.Drawing.Point(309, 104);
+            this.tbApellidoProp.Location = new System.Drawing.Point(311, 104);
             this.tbApellidoProp.Name = "tbApellidoProp";
             this.tbApellidoProp.Size = new System.Drawing.Size(133, 29);
             this.tbApellidoProp.TabIndex = 1;
@@ -221,7 +230,7 @@
             // 
             this.tbNumeroProp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.tbNumeroProp.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbNumeroProp.Location = new System.Drawing.Point(467, 104);
+            this.tbNumeroProp.Location = new System.Drawing.Point(471, 104);
             this.tbNumeroProp.Name = "tbNumeroProp";
             this.tbNumeroProp.Size = new System.Drawing.Size(133, 29);
             this.tbNumeroProp.TabIndex = 2;
@@ -242,7 +251,7 @@
             this.gpBuscarId.Controls.Add(this.btBuscarId);
             this.gpBuscarId.Controls.Add(this.tbIngresarDoc);
             this.gpBuscarId.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gpBuscarId.Location = new System.Drawing.Point(647, 142);
+            this.gpBuscarId.Location = new System.Drawing.Point(651, 142);
             this.gpBuscarId.Name = "gpBuscarId";
             this.gpBuscarId.Size = new System.Drawing.Size(145, 182);
             this.gpBuscarId.TabIndex = 8;
@@ -262,6 +271,9 @@
             // btBuscarId
             // 
             this.btBuscarId.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.btBuscarId.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btBuscarId.BackgroundImage")));
+            this.btBuscarId.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btBuscarId.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btBuscarId.Location = new System.Drawing.Point(6, 97);
             this.btBuscarId.Name = "btBuscarId";
             this.btBuscarId.Size = new System.Drawing.Size(133, 29);
@@ -294,20 +306,24 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(227)))), ((int)(((byte)(241)))));
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.Font = new System.Drawing.Font("Palatino Linotype", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(133, 43);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(240, 38);
+            this.label1.Size = new System.Drawing.Size(242, 40);
             this.label1.TabIndex = 19;
             this.label1.Text = "Datos propietario";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(227)))), ((int)(((byte)(241)))));
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Font = new System.Drawing.Font("Palatino Linotype", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(133, 220);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(206, 38);
+            this.label2.Size = new System.Drawing.Size(208, 40);
             this.label2.TabIndex = 20;
             this.label2.Text = "Datos mascota";
             // 

@@ -78,6 +78,7 @@
             this.cbNombreMascotas = new System.Windows.Forms.ComboBox();
             this.tbDocumentoProp = new System.Windows.Forms.TextBox();
             this.eProvider = new System.Windows.Forms.ErrorProvider(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlBack.SuspendLayout();
             this.gbMedicamentos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMedicamentos)).BeginInit();
@@ -88,6 +89,7 @@
             this.gbOpcMascota.SuspendLayout();
             this.pnlEncabezado.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.eProvider)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlBack
@@ -100,6 +102,7 @@
             this.pnlBack.Controls.Add(this.gbTratamiento);
             this.pnlBack.Controls.Add(this.groupBox1);
             this.pnlBack.Controls.Add(this.gbOpcMascota);
+            this.pnlBack.Controls.Add(this.pictureBox1);
             this.pnlBack.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlBack.Location = new System.Drawing.Point(0, 56);
             this.pnlBack.Name = "pnlBack";
@@ -120,6 +123,7 @@
             // 
             // gbMedicamentos
             // 
+            this.gbMedicamentos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(227)))), ((int)(((byte)(241)))));
             this.gbMedicamentos.Controls.Add(this.dgvMedicamentos);
             this.gbMedicamentos.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbMedicamentos.Location = new System.Drawing.Point(12, 607);
@@ -143,6 +147,7 @@
             // 
             this.gbEstadoMasc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.gbEstadoMasc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(227)))), ((int)(((byte)(241)))));
             this.gbEstadoMasc.Controls.Add(this.tbEstadoActual);
             this.gbEstadoMasc.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbEstadoMasc.Location = new System.Drawing.Point(12, 491);
@@ -168,6 +173,7 @@
             // 
             this.gbMotivoConsulta.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.gbMotivoConsulta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(227)))), ((int)(((byte)(241)))));
             this.gbMotivoConsulta.Controls.Add(this.tbMotivoConsulta);
             this.gbMotivoConsulta.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbMotivoConsulta.Location = new System.Drawing.Point(12, 338);
@@ -193,6 +199,7 @@
             // 
             this.gbTratamiento.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.gbTratamiento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(227)))), ((int)(((byte)(241)))));
             this.gbTratamiento.Controls.Add(this.tbTratamiento);
             this.gbTratamiento.Font = new System.Drawing.Font("Palatino Linotype", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbTratamiento.Location = new System.Drawing.Point(12, 780);
@@ -218,6 +225,7 @@
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(227)))), ((int)(((byte)(241)))));
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label12);
             this.groupBox1.Controls.Add(this.tbEdad);
@@ -494,6 +502,7 @@
             // gbOpcMascota
             // 
             this.gbOpcMascota.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.gbOpcMascota.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(227)))), ((int)(((byte)(241)))));
             this.gbOpcMascota.Controls.Add(this.btVista);
             this.gbOpcMascota.Controls.Add(this.btBuscarHistoria);
             this.gbOpcMascota.Controls.Add(this.btEditar);
@@ -511,6 +520,9 @@
             // 
             this.btVista.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btVista.AutoSize = true;
+            this.btVista.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btVista.BackgroundImage")));
+            this.btVista.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btVista.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btVista.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btVista.Location = new System.Drawing.Point(14, 13);
             this.btVista.Name = "btVista";
@@ -537,6 +549,9 @@
             // 
             this.btEditar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btEditar.AutoSize = true;
+            this.btEditar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btEditar.BackgroundImage")));
+            this.btEditar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btEditar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btEditar.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btEditar.Location = new System.Drawing.Point(14, 50);
             this.btEditar.Name = "btEditar";
@@ -561,6 +576,9 @@
             // 
             this.btGuardarCambios.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btGuardarCambios.AutoSize = true;
+            this.btGuardarCambios.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btGuardarCambios.BackgroundImage")));
+            this.btGuardarCambios.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btGuardarCambios.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btGuardarCambios.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btGuardarCambios.Location = new System.Drawing.Point(14, 83);
             this.btGuardarCambios.Name = "btGuardarCambios";
@@ -573,6 +591,9 @@
             // btVerUltHistoria
             // 
             this.btVerUltHistoria.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btVerUltHistoria.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btVerUltHistoria.BackgroundImage")));
+            this.btVerUltHistoria.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btVerUltHistoria.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btVerUltHistoria.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btVerUltHistoria.Location = new System.Drawing.Point(12, 191);
             this.btVerUltHistoria.Name = "btVerUltHistoria";
@@ -585,6 +606,8 @@
             // pnlEncabezado
             // 
             this.pnlEncabezado.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.pnlEncabezado.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlEncabezado.BackgroundImage")));
+            this.pnlEncabezado.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlEncabezado.Controls.Add(this.btBuscarMascs);
             this.pnlEncabezado.Controls.Add(this.btBuscarMascota);
             this.pnlEncabezado.Controls.Add(this.cbNombreMascotas);
@@ -642,6 +665,16 @@
             // 
             this.eProvider.ContainerControl = this;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(783, 926);
+            this.pictureBox1.TabIndex = 40;
+            this.pictureBox1.TabStop = false;
+            // 
             // FormVerMascotaAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -665,6 +698,7 @@
             this.pnlEncabezado.ResumeLayout(false);
             this.pnlEncabezado.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.eProvider)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -719,5 +753,6 @@
         public System.Windows.Forms.ComboBox cbNombreMascotas;
         private System.Windows.Forms.TextBox tbDocumentoProp;
         private System.Windows.Forms.ErrorProvider eProvider;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

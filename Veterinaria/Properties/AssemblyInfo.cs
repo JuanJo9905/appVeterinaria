@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
 [assembly: AssemblyTitle("Veterinaria")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Aplicacion para el control de historias clinicas de una veterinaria")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Juan José González Quintero")]
 [assembly: AssemblyProduct("Veterinaria")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
